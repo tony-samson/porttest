@@ -1,3 +1,50 @@
+function defaultload(){
+	document.getElementById("bodybox").innerHTML = `
+	
+	<div class="container-fluid iframe-container">
+
+      <iframe width="440" height="300" src="https://www.tinkercad.com/embed/5ZIjaNlWrWI?editbtn=1" frameborder="0"
+        marginwidth="0" marginheight="0" scrolling="no"></iframe>
+      <div class="description-boxx">
+        <h5>Multiplexer</h5>
+        <p>2x1 and 4x1 Multiplexer was built using NAND, AND, OR gates. we have select lines to choose the input Dip
+          switches. We can seee the output through LED. please click simulate to try.</p>
+      </div>
+
+      <iframe width="440" height="300" src="https://www.tinkercad.com/embed/745r3ZrUzwF?editbtn=1" frameborder="0"
+        marginwidth="0" marginheight="0" scrolling="no"></iframe>
+      <div class="description-boxx">
+        <h5>NAND to All gates</h5>
+        <p>Using universal gate NANDs implementing the funtionality every other gate iput are the Dipswitches and output
+          are the LED. It lits up only when there is 1 refer to the truth table. use the simulate button to try.</p>
+      </div>
+
+      <iframe width="440" height="300" src="https://www.tinkercad.com/embed/4g3uPa4wCVq?editbtn=1" frameborder="0"
+        marginwidth="0" marginheight="0" scrolling="no"></iframe>
+      <div class="description-boxx">
+        <h5>Birthday gift to my sister</h5>
+        <p>Defined frequency of buzzer as notes in array with the durations used in a
+          loop to create happy
+          birthday, beautiful people song,
+          the LCD cursor to display sister in different languages. please listen by clicking simulate button.</p>
+      </div>
+
+      <iframe width="440" height="300" src="https://www.tinkercad.com/embed/3dtkOZANHKt?editbtn=1" frameborder="0"
+        marginwidth="0" marginheight="0" scrolling="no"></iframe>
+      <div class="description-boxx">
+        <h5>Logic Gates</h5>
+        <p>Just with two Dip switches attached to gates and each output form every gate has LED beside according to the
+          truth table we can see the LED lit up when the output is 1 and doesnt turn on when the output is zero. please
+          click simulate to try.</p>
+
+      </div>
+
+    </div>
+    
+
+	`;
+}
+
 function certifications(){
 	 
 	document.getElementById("bodybox").innerHTML = '<div class="w3-content w3-display-container">'+

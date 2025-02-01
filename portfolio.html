@@ -1,63 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: rgb(32, 31, 31);">
-        <div class=" navbar-center mx-auto">
-        <a class="navbar-brand " href="#" style="padding-left:3px; color: rgb(173, 207, 4);"><b>SAMSON</b></a>
-        <p style="color: rgb(173, 207, 4);"> A D I D E L A</p>
-        </div>
-        <button  class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"><i class="fa fa-home"> Home </i><span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="fa face-relieved"> My Content</i>
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#"><i class="fa fa-music"></i> Music</a>
-                <a class="dropdown-item" href="#"> Drawings</a>
-                <a class="dropdown-item" href="#"> Manga</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#"> Excerpts</a>
-              </div>
-            </li>  
-            <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fa fa-user"> About me</i></a>
-            </li> 
-          </ul>
-        </div>
-      </nav>
-<div class="back"></div>
-<div id ="container" class="card-container" >
-            <a class="card " target="" rel="noopener" onclick="academics()" href="#"><span>Academics</span></a>
-            <a class="card " target="" rel="noopener" onclick="certifications()" href="#"><span>Certifications</span></a>
-            <a class="card " target="" rel="noopener" onclick="project()" href="#"><span>Project</span></a>
-            <a class="card " target="" rel="noopener" onclick="resume()" href="#"><span>Resume</span></a>
-        </div>
+  <nav class="navbar navbar-expand-lg" style="background-color: rgb(32, 31, 31);">
+    <div class=" navbar-center mx-auto">
+      <a class="navbar-brand " href="#" style="padding-left:3px; color: rgb(173, 207, 4);"><b>SAMSON</b></a>
+      <p style="color: rgb(173, 207, 4);"> A D I D E L A</p>
+    </div>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
 
-<div id="bodybox"> hibernate</div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><i class="fa fa-home" onclick="defaultload()"> Home </i><span
+              class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fa face-relieved"> My Content</i>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="https://www.bandlab.com/wrodrick" target="_blank"><i class="fa fa-music"></i> Music</a>
+            <a class="dropdown-item" href="#"> Drawings</a>
+            <a class="dropdown-item" href="#"> Manga</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#"> Excerpts</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fa fa-user"> About me</i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="back"></div>
+  <div id="container" class="card-container">
+    <a class="card " target="" rel="noopener" onclick="academics()" href="#"><span>Academics</span></a>
+    <a class="card " target="" rel="noopener" onclick="certifications()" href="#"><span>Certifications</span></a>
+    <a class="card " target="" rel="noopener" onclick="project()" href="#"><span>Project</span></a>
+    <a class="card " target="" rel="noopener" onclick="resume()" href="#"><span>Resume</span></a>
+  </div>
 
-<footer class="panel-footer" style="position: fixed; bottom: 0px; left: 0px; height: 50px; width:100%; background-color: rgb(32, 31, 31);">
-            
-  <div class="text-center" style="color: rgb(173,207,4);">'May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit. '<br>- <i>Romans 15:13</i></div>
-</footer>
+  <div id="bodybox">
+
+    <div class="container-fluid iframe-container">
+
+      <iframe width="440" height="300" src="https://www.tinkercad.com/embed/5ZIjaNlWrWI?editbtn=1" frameborder="0"
+        marginwidth="0" marginheight="0" scrolling="no"></iframe>
+      <div class="description-boxx">
+        <h5>Multiplexer</h5>
+        <p>2x1 and 4x1 Multiplexer was built using NAND, AND, OR gates. we have select lines to choose the input Dip
+          switches. We can seee the output through LED. please click simulate to try.</p>
+      </div>
+
+      <iframe width="440" height="300" src="https://www.tinkercad.com/embed/745r3ZrUzwF?editbtn=1" frameborder="0"
+        marginwidth="0" marginheight="0" scrolling="no"></iframe>
+      <div class="description-boxx">
+        <h5>NAND to All gates</h5>
+        <p>Using universal gate NANDs implementing the funtionality every other gate iput are the Dipswitches and output
+          are the LED. It lits up only when there is 1 refer to the truth table. use the simulate button to try.</p>
+      </div>
+
+      <iframe width="440" height="300" src="https://www.tinkercad.com/embed/4g3uPa4wCVq?editbtn=1" frameborder="0"
+        marginwidth="0" marginheight="0" scrolling="no"></iframe>
+      <div class="description-boxx">
+        <h5>Birthday gift to my sister</h5>
+        <p>Defined frequency of buzzer as notes in array with the durations used in a
+          loop to create happy
+          birthday, beautiful people song,
+          the LCD cursor to display sister in different languages. please listen by clicking simulate button.</p>
+      </div>
+
+      <iframe width="440" height="300" src="https://www.tinkercad.com/embed/3dtkOZANHKt?editbtn=1" frameborder="0"
+        marginwidth="0" marginheight="0" scrolling="no"></iframe>
+      <div class="description-boxx">
+        <h5>Logic Gates</h5>
+        <p>Just with two Dip switches attached to gates and each output form every gate has LED beside according to the
+          truth table we can see the LED lit up when the output is 1 and doesnt turn on when the output is zero. please
+          click simulate to try.</p>
+
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="panel-footer"
+    style="position: fixed; bottom: 0px; left: 0px; height: 50px; width:100%; background-color: rgb(255, 255, 255, 0.027); backdrop-filter: blur(10px);">
+
+    <div class="text-center" style="color:rgb(175, 204, 31);">'But if we confess our sins to him, he is faithful and
+      just to forgive us our sins and cleanse us from all wickedness.'<br>- <i>1 John 1:9</i>
+    </div>
+  </footer>
 </body>
+
 </html>

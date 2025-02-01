@@ -127,3 +127,61 @@ position:relative;
 color:rgb(173 , 207, 4);
 }
 
+.iframe-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px; /* Space between iframe and description */
+  flex-wrap: wrap; /* This allows the description box to move below the iframe */
+}
+
+/* Style for iframe */
+.iframe {
+  width: 100%; /* Make iframe fluid */
+    max-width: 450px; /* Set max-width for iframe */
+    height: 300px;
+  
+}
+
+/* Style for description box */
+.description-boxx {
+  flex: 1; /* This makes description box fluid and take up remaining space */
+    background-color:  rgb(32, 31, 31);
+    padding: 15px;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    width: 100%;
+    max-width: 500px;/* Ensure padding does not affect width */
+    min-width: 100px;
+    height: 300px;
+}
+.description-boxx h5 {
+  text-align: justify;
+  text-justify: inter-word;
+  margin-top: 0; /* Remove default margin */
+  text-align: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 1024px) {
+  .description-boxx {
+      width: 400px; /* Decrease the width of description box for mid-size screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .iframe-container {
+      flex-direction: column; /* Stack iframe and description vertically on phone view */
+      align-items: center; /* Center the content */
+  }
+
+  .iframe {
+      width: 100%; /* Allow iframe to take full width on smaller screens */
+      max-width: 450px; /* Keep the max width to 450px */
+  }
+
+  .description-boxx {
+      width: 100%; /* Make the description box take full width */
+      max-width: 450px; /* Limit the max width */
+  }
+}
