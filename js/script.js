@@ -47,16 +47,16 @@ function defaultload(){
 
 function certifications(){
 	 
-	document.getElementById("bodybox").innerHTML = '<div class="w3-content w3-display-container">'+
-	'<img class="mySlides" src="images/1.png" style="width:100%;">'+
-	'<img class="mySlides" src="images/2.png" style="width:100%;">'+
-	'<img class="mySlides" src="images/3.png" style="width:100%;">'+
-	'<img class="mySlides" src="images/4.png" style="width:100%;">'+
-	'<img class="mySlides" src="images/5.png" style="width:100%;">'+
-	'<img class="mySlides" src="images/6.png" style="width:100%;">'+
-  	'<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>'+
-	'<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>'+
-	'</div><br><br><br>';
+	document.getElementById("bodybox").innerHTML = `<div class="w3-content w3-display-container">
+  <img class="mySlides" src="images/1.png" style="width:100%; display: block;">
+  <img class="mySlides" src="images/2.png" style="width:100%; display: none;">
+  <img class="mySlides" src="images/3.png" style="width:100%; display: none;">
+  <img class="mySlides" src="images/4.png" style="width:100%; display: none;">
+  <img class="mySlides" src="images/5.png" style="width:100%; display: none;">
+  <img class="mySlides" src="images/6.png" style="width:100%; display: none;">
+  <button class="w3-button  w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button  w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div><br><br><br>`;
 	}
 
 function academics(){
