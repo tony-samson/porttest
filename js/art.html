@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Artwork Layout</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #0f0f0f;
+      color: #eaeaea;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .navbar {
+      background-color: #1a1a1a;
+    }
+
+    /* Masonry Grid */
+    .masonry {
+      column-count: 4;
+      column-gap: 1.5rem;
+    }
+
+    @media (max-width: 1200px) {
+      .masonry { column-count: 3; }
+    }
+
+    @media (max-width: 768px) {
+      .masonry { column-count: 2; }
+    }
+
+    @media (max-width: 576px) {
+      .masonry { column-count: 1; }
+    }
+
+    .art-item {
+      break-inside: avoid;
+      margin-bottom: 1.5rem;
+    }
+
+    .art-item img {
+      width: 100%;
+      border-radius: 14px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .art-item img:hover {
+      transform: scale(1.02);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.8);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark">
+    <div class="container">
+      <span class="navbar-brand">Samson Adidela</span>
+    </div>
+  </nav>
+
+  <!-- Title -->
+  <header class="container text-center py-5">
+    <h1 class="fw-bold">Tony's Artwork Collection</h1>
+    <p class="text-muted">Scattered • Raw • Night Mode</p>
+  </header>
+
+  <!-- Masonry Gallery -->
+  <main class="container pb-5">
+    <div class="masonry">
+
+      <div class="art-item">
+        <img src="art1.jpg" alt="Artwork">
+      </div>
+
+      <div class="art-item">
+        <img src="art2.jpg" alt="Artwork">
+      </div>
+
+      <div class="art-item">
+        <img src="art3.jpg" alt="Artwork">
+      </div>
+
+      <div class="art-item">
+        <img src="art4.jpg" alt="Artwork">
+      </div>
+
+    <div class="art-item position-relative">
+  <img src="art5.jpg" class="img-fluid" alt="Artwork made with clay">
+
+  <div class="carousel-caption d-none d-md-block">
+    <p>Made it with clay</p>
+  </div>
+</div>
+
+
+      <div class="art-item">
+        <img src="art6.jpg" alt="Artwork">
+      </div>
+       <div class="art-item">
+        <img src="art7.jpg" alt="Artwork">
+      </div>
+       <div class="art-item">
+        <img src="art8.jpg" alt="Artwork">
+      </div>
+       <div class="art-item">
+        <img src="art9.jpg" alt="Artwork">
+      </div>
+       <div class="art-item">
+        <img src="art10.jpg" alt="Artwork">
+      </div>
+       <div class="art-item">
+        <img src="art11.jpg" alt="Artwork">
+      </div>
+       <div class="art-item">
+        <img src="art12.jpg" alt="Artwork">
+      </div>
+       <div class="art-item">
+        <img src="art13.jpg" alt="Artwork">
+      </div>
+       <div class="art-item">
+        <img src="art14.jpg" alt="Artwork">
+      </div>
+
+      <!-- Add more images -->
+      
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
