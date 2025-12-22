@@ -20,48 +20,48 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg" style="background-color: rgb(32, 31, 31);">
+  <nav class="navbar navbar-expand-lg custom-navbar" style="background-color: rgb(32, 31, 31);">
+
     <div class=" navbar-center mx-auto">
       <a class="navbar-brand " href="https://tony-samson.github.io/porttest/portfolio.html" style="padding-left:3px; color: rgb(173, 207, 4);"><b>SAMSON</b></a>
       <p style="color: rgb(173, 207, 4);"> A D I D E L A</p>
     </div>
-    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
+    <button class="navbar-toggler ml-auto" type="button"
+        data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="https://tony-samson.github.io/porttest/portfolio.html"><i class="fa fa-home" onclick="defaultload()"> Home </i><span
+          <a class="nav-link" href="#"><i class="fa fa-home" onclick="defaultload()"> Home </i><span
               class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            <i class="fa face-relieved"> My Content</i>
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="https://www.bandlab.com/wrodrick" target="_blank"><i class="fa fa-music"></i> Music</a>
-            <a class="dropdown-item" href="js/art.html" target="_blank"> Artwork</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#"> Excerpts</a>
-          </div>
+        
+       
+
+         <li class="nav-item">
+        <a class="nav-link" href="js/art.html" target="_blank"> <i class="fa fa-paint"> Artwork </i></a> 
+             </li>
+         <li class="nav-item">
+          <a class="nav-link" href="https://www.bandlab.com/wrodrick" target="_blank"><i class="fa fa-music"> Music </i> </a>
         </li>
+       
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa fa-user"> About me</i></a>
+          <a class="nav-link"  onclick="academics()" href="#"><i class="fa fa-user"> About me</i></a>
         </li>
       </ul>
     </div>
   </nav>
   <div class="back"></div>
   <div id="container" class="card-container">
-    <a class="card " target="" rel="noopener" onclick="academics()" href="#"><span>Academics</span></a>
-    <a class="card " target="" rel="noopener" onclick="certifications()" href="#"><span>Certifications</span></a>
-    <a class="card " target="" rel="noopener" onclick="project()" href="#"><span>Project</span></a>
-    <a class="card " target="" rel="noopener" onclick="resume()" href="#"><span>Resume</span></a>
+    <a class="cards " target="" rel="noopener" onclick="project()" href="#"><span>Academic & Research Projects</span></a>    
+    <a class="cards " target="" rel="noopener" onclick="embedded()" href="#"><span>Robotics & Embedded Systems Projects</span></a>
+    <a class="cards " target="" rel="noopener" onclick="statistical()" href="#"><span>Statistical Projects</span></a>
+    <a class="cards" target="" rel="noopener" onclick="certifications()" href="#"><span>Certifications</span></a>
   </div>
 
   <div id="bodybox">
