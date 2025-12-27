@@ -130,6 +130,55 @@ function certifications(){
 </div><br><br><br>`;
 	}
 
+  function mathmodel(){
+    document.getElementById("bodybox").innerHTML = `
+    <div class="container py-4">
+      
+      <!-- Project 1 -->
+      <div class="row align-items-center mb-4 project-row">
+        <div class="col-md-4">
+         <a href="https://tony-samson.github.io/energy-loss-on-impact/en.html" target="_blank" rel="noopener">
+          <img src="images/math_prj1.png" class="img-fluid rounded" alt="Project 1">
+          </a>
+        </div>
+        <div class="col-md-8">
+          <h4>Energy Loss on Impact of Different Materials</h4>
+<p>
+An interactive physics-based simulation that models energy loss during repeated impacts of different materials. 
+Users can vary material properties, mass, applied force, and surrounding medium to observe how kinetic energy 
+is dissipated into deformation, heat, and impulse. The system visualizes impact history, surface heat buildup, 
+and temperature rise in real time using a custom JavaScript physics engine and canvas-based rendering.
+</p>
+          <a href="https://tony-samson.github.io/energy-loss-on-impact/en.html" class="project-btn" target="_blank" rel="noopener">View Project</a>
+        </div>
+      </div>
+      <hr class="my-4 fade-divider">
+ <!-- Project 2 -->
+      <div class="row align-items-center mb-4 project-row">
+        <div class="col-md-4">
+         <a href="https://tony-samson.github.io/double-pendulum/double.html" target="_blank" rel="noopener">
+          <img src="images/math_prj2.png" class="img-fluid rounded" alt="Project 2">
+          </a>
+        </div>
+        <div class="col-md-8">
+          <h4>Double Pendulum Simulation</h4>
+<p>
+This interactive double pendulum simulation demonstrates the emergence of chaotic motion in a nonlinear dynamical system. 
+Users can continuously adjust the masses, gravitational strength, and damping to observe how small parameter changes lead 
+to dramatically different trajectories. Real-time readouts of angular position and angular velocity for both pendulum arms 
+highlight the system’s sensitivity to initial conditions and mass distribution. The simulation illustrates energy transfer 
+between coupled pendulums, velocity amplification, and the breakdown of predictable motion—key characteristics of chaotic 
+physics systems encountered in classical mechanics
+</p>
+          <a href="https://tony-samson.github.io/double-pendulum/double.html" class="project-btn" target="_blank" rel="noopener">View Project</a>
+        </div>
+      </div>
+      <hr class="my-4 fade-divider">
+    </div>
+  `;
+
+  }
+
 function academics(){
 document.getElementById("bodybox").innerHTML = '<H4 style="text-align:center;color:rgba(117, 233, 8, 0.726);"><b>Anurag Group of Institutions</b><i> (2018 - 2022)</i></h4>'+
 '<p><i>Early in my undergraduate study, I was introduced to other programming languages like C#,'+
