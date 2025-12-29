@@ -133,7 +133,21 @@ function certifications(){
   function mathmodel(){
     document.getElementById("bodybox").innerHTML = `
     <div class="container py-4">
-      
+      <div class="row align-items-center mb-4 project-row">
+        <div class="col-md-4">
+         <a href="https://tony-samson.github.io/atoms/atom.html" target="_blank" rel="noopener">
+          <img src="images/atom.png" class="img-fluid rounded" alt="Project 1">
+          </a>
+        </div>
+        <div class="col-md-8">
+          <h4>Quantum & Nuclear Lab</h4>
+<p>
+An interactive quantum and nuclear physics simulation visualizing atomic orbitals, radiation interactions, and nuclear reactions. Explore hydrogen ionization and fusion (H → He, ~10% under stellar conditions like the Sun) and uranium-238 fission as used in controlled nuclear reactors, with real-time particle bombardment, spectra, and dynamic animations.
+</p>
+          <a href="https://tony-samson.github.io/atoms/atom.html" class="project-btn" target="_blank" rel="noopener">View Project</a>
+        </div>
+      </div>
+      <hr class="my-4 fade-divider">
       <!-- Project 1 -->
       <div class="row align-items-center mb-4 project-row">
         <div class="col-md-4">
