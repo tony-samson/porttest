@@ -223,16 +223,29 @@ function statistical() {
       </div>
       <hr class="my-4 fade-divider">
 
+        <div class="row align-items-center mb-4 project-row">
+        <div class="col-md-4">
+         <a href=" https://samsonadidela.shinyapps.io/regression/" target="_blank" rel="noopener">
+          <img src="images/sn.png" class="img-fluid rounded" alt="Project 2"></a>
+        </div>
+        <div class="col-md-8">
+          <h4>Regression Analysis</h4>
+          <p>This app has Stepwise AIC, polynomial and interaction terms, and advanced diagnostics through correlation matrices and LOESS vs linear comparisons. The application emphasizes interpretability with coefficient significance tables, model performance metrics, residual analysis, and a dedicated prediction lab for real-time inference.</p>
+          <a href=" https://samsonadidela.shinyapps.io/regression/" class="project-btn" target="_blank" rel="noopener">View Project</a>
+        </div>
+      </div>
+<hr class="my-4 fade-divider">
+
       <!-- Project 2 -->
       <div class="row align-items-center mb-4 project-row">
         <div class="col-md-4">
-         <a href="https://tonysamson.shinyapps.io/linearregression/" target="_blank" rel="noopener">
+         <a href="https://tonysamson.shinyapps.io/annova/" target="_blank" rel="noopener">
           <img src="images/stat_project2.png" class="img-fluid rounded" alt="Project 2"></a>
         </div>
         <div class="col-md-8">
           <h4>ANOVA Study</h4>
-          <p>This project applies Analysis of Variance (ANOVA) to compare multiple group means and determine if differences are statistically significant.</p>
-          <a href="https://tonysamson.shinyapps.io/linearregression/" class="project-btn" target="_blank" rel="noopener">View Project</a>
+          <p>This ANOVA study determines whether statistically significant differences exist among multiple group means using one-way ANOVA, validates model assumptions through residual diagnostics, quantifies practical significance via effect size (η²), and identifies specific group differences using Tukey HSD post-hoc analysis.</p>
+          <a href="https://tonysamson.shinyapps.io/annova/" class="project-btn" target="_blank" rel="noopener">View Project</a>
         </div>
       </div>
 <hr class="my-4 fade-divider">
@@ -240,14 +253,14 @@ function statistical() {
       <!-- Project 3 -->
       <div class="row align-items-center mb-4 project-row">
         <div class="col-md-4">
-         <a href="https://tonysamson.shinyapps.io/linearregression/" target="_blank" rel="noopener">
-          <img src="images/stat_project3.png" class="img-fluid rounded" alt="Project 3">
+         <a href="https://tonysamson.shinyapps.io/simulations/" target="_blank" rel="noopener">
+          <img src="images/stat_prj3.png" class="img-fluid rounded" alt="Project 3">
           </a>
         </div>
         <div class="col-md-8">
           <h4>Probability Simulation</h4>
           <p>A hands-on simulation of probability distributions and events. This project visually demonstrates concepts such as expected value and variance.</p>
-          <a href="https://tonysamson.shinyapps.io/linearregression/" class="project-btn" target="_blank" rel="noopener">View Project</a>
+          <a href="https://tonysamson.shinyapps.io/simulations/" class="project-btn" target="_blank" rel="noopener">View Project</a>
         </div>
       </div>
 
@@ -405,7 +418,6 @@ function embedded() {
               PAN-based socket control with manual and autonomous modes, object grabbing,
               obstacle avoidance, and NFL-style goal navigation.
             </p>
-              <a href="" class="project-btn" target="_blank" rel="noopener">Watch</a>
           </div>
         </div>
       </div>
