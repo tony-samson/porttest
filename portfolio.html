@@ -23,16 +23,14 @@
   <nav class="navbar navbar-expand-lg custom-navbar" style="background-color: rgb(32, 31, 31);">
 
     <div class=" navbar-center mx-auto">
-      <a class="navbar-brand " href="https://tony-samson.github.io/porttest/portfolio.html" style="padding-left:3px; color: rgb(173, 207, 4);"><b>SAMSON</b></a>
+      <a class="navbar-brand " href="https://tony-samson.github.io/porttest/portfolio.html"
+        style="padding-left:3px; color: rgb(173, 207, 4);"><b>SAMSON</b></a>
       <p style="color: rgb(173, 207, 4);"> A D I D E L A</p>
     </div>
-    <button class="navbar-toggler ml-auto" type="button"
-        data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
@@ -40,39 +38,47 @@
           <a class="nav-link" href="#"><i class="fa fa-home" onclick="defaultload()"> Home </i><span
               class="sr-only">(current)</span></a>
         </li>
-        
-        <li class="nav-item">
-        <a class="nav-link" href="#" onclick="certifications()"> <i class="fa fa-paint"> Certifications </i></a> 
-             </li>
 
-         <li class="nav-item">
-        <a class="nav-link" href="js/art.html" target="_blank"> <i class="fa fa-paint"> Artwork </i></a> 
-             </li>
-         <li class="nav-item">
-          <a class="nav-link" href="https://www.bandlab.com/wrodrick" target="_blank"><i class="fa fa-music"> Music </i> </a>
-        </li>
-       
         <li class="nav-item">
-          <a class="nav-link"  onclick="academics()" href="#"><i class="fa fa-user"> About me</i></a>
+          <a class="nav-link" href="#" onclick="certifications()"> <i class="fa fa-paint"> Certifications </i></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="js/art.html" target="_blank"> <i class="fa fa-paint"> Artwork </i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.bandlab.com/wrodrick" target="_blank"><i class="fa fa-music"> Music </i>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" onclick="academics()" href="#"><i class="fa fa-user"> About me</i></a>
         </li>
       </ul>
     </div>
   </nav>
   <div class="back"></div>
   <div id="container" class="card-container">
-    <a class="cards " target="" rel="noopener" onclick="project()" href="#"><span>Academic & Research Projects</span></a>    
-    <a class="cards " target="" rel="noopener" onclick="embedded()" href="#"><span>Robotics & Embedded Systems Projects</span></a>
+    <a class="cards " target="" rel="noopener" onclick="project()" href="#"><span>Academic & Research
+        Projects</span></a>
+    <a class="cards " target="" rel="noopener" onclick="embedded()" href="#"><span>Robotics & Embedded Systems
+        Projects</span></a>
     <a class="cards " target="" rel="noopener" onclick="statistical()" href="#"><span>Statistical Projects</span></a>
-    <a class="cards" target="" rel="noopener" onclick="mathmodel()" href="#"><span>Mathematical Modeling Projects</span></a>
+    <a class="cards" target="" rel="noopener" onclick="mathmodel()" href="#"><span>Mathematical Modeling
+        Projects</span></a>
   </div>
 
   <div id="bodybox">
 
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
+    <div class="container-fluid my-5 px-4">
+      <div class="row align-items-start">
 
-    <div class="carousel-item active">
+        <!-- LEFT: Carousel 70% -->
+        <div class="col-md-8 mb-4">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
       <a href="https://www.linkedin.com/posts/adidela-samson-tony_ev3-robot-writing-numbers-only-on-the-paper-activity-7393614926256365568-dIMv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADsMkYIBrT1862Cg8JRyvWTv-QDFSlNPVro"  target="_blank" rel="noopener">
         <img  class="d-block w-100 my-5" src="./images/ROBO.jpg" alt="robot">
       </a>
@@ -118,15 +124,48 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+
+          </div>
+        </div>
+
+        <!-- RIGHT: Project Cards 30% -->
+        <div class="col-md-4">
+
+          <!-- Gravity Simulation Card -->
+          <div class="project-card">
+  <img src="images/grav.png" class="project-image" alt="Gravity Simulation">
+  <div class="project-info mt-2">
+    <h4>Gravity Simulation</h4>
+    <p>Physics-based n-body gravity simulation built using VPython, visualizing orbital dynamics, forces, and motion in real time.</p>
+    <div class="project-actions">
+      <a href="https://www.linkedin.com/posts/adidela-samson-tony_physicsmodeling-vpython-gravitysimulation-activity-7413258059747291136-V7h4?utm_source=share&utm_medium=member_desktop&rcm=ACoAADsMkYIBrT1862Cg8JRyvWTv-QDFSlNPVro" target="_blank" rel="noopener" class="project-btn">Watch</a>
+      <a href="https://github.com/tony-samson/nBody" target="_blank" class="project-btn icon-btn"><i class="fa fa-github"></i></a>
+    </div>
+  </div>
 </div>
 
+<div class="project-card">
+  <img src="images/atom.png" class="project-image" alt="Quantum Lab">
+  <div class="project-info mt-2">
+    <h4>Quantum & Nuclear Lab</h4>
+    <p>Simulations visualizing atomic orbitals, radiation interactions, hydrogen fusion (H → He), and U-238 fission with real-time animations.</p>
+    <div class="project-actions">
+      <a href="https://tony-samson.github.io/atoms/atom.html" target="_blank" rel="noopener" class="project-btn">View Project</a>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
     <div class="container-fluid iframe-container">
 
       <iframe width="440" height="300" src="https://www.tinkercad.com/embed/5ZIjaNlWrWI?editbtn=1" frameborder="0"
         marginwidth="0" marginheight="0" scrolling="no"></iframe>
       <div class="description-boxx">
         <h5>Multiplexer</h5>
-        <p>2x1 and 4x1 Multiplexer was built using NAND, AND, OR gates. we have select lines to choose the input Dip
+        <p>2x1 and 4x1 Multiplexer was built using NAND, AND, OR gates. we have select lines to choose the input
+          Dip
           switches. We can seee the output through LED. please click simulate to try.</p>
       </div>
 
@@ -134,8 +173,10 @@
         marginwidth="0" marginheight="0" scrolling="no"></iframe>
       <div class="description-boxx">
         <h5>NAND to All gates</h5>
-        <p>Using universal gate NANDs implementing the funtionality every other gate iput are the Dipswitches and output
-          are the LED. It lits up only when there is 1 refer to the truth table. use the simulate button to try.</p>
+        <p>Using universal gate NANDs implementing the funtionality every other gate iput are the Dipswitches and
+          output
+          are the LED. It lits up only when there is 1 refer to the truth table. use the simulate button to try.
+        </p>
       </div>
 
       <iframe width="440" height="300" src="https://www.tinkercad.com/embed/4g3uPa4wCVq?editbtn=1" frameborder="0"
@@ -152,36 +193,42 @@
         marginwidth="0" marginheight="0" scrolling="no"></iframe>
       <div class="description-boxx">
         <h5>Logic Gates</h5>
-        <p>Just with two Dip switches attached to gates and each output form every gate has LED beside according to the
-          truth table we can see the LED lit up when the output is 1 and doesnt turn on when the output is zero. please
+        <p>Just with two Dip switches attached to gates and each output form every gate has LED beside according
+          to the
+          truth table we can see the LED lit up when the output is 1 and doesnt turn on when the output is zero.
+          please
           click simulate to try.</p>
 
       </div>
 
-        <iframe width="440" height="300" src="https://www.tinkercad.com/embed/gddKoRsL6ac?editbtn=1" frameborder="0" 
+      <iframe width="440" height="300" src="https://www.tinkercad.com/embed/gddKoRsL6ac?editbtn=1" frameborder="0"
         marginwidth="0" marginheight="0" scrolling="no"></iframe>
-       <div class="description-boxx">
+      <div class="description-boxx">
         <h5>Full-adder</h5>
-            <p>Using two XOR gates, two AND gates, and one OR gate, I built a full adder where the carry can also be simulated. The Cout and Sum outputs are displayed using LEDs.</p>
+        <p>Using two XOR gates, two AND gates, and one OR gate, I built a full adder where the carry can also be
+          simulated. The Cout and Sum outputs are displayed using LEDs.</p>
 
-       </div>
+      </div>
 
 
-      <iframe width="440" height="300" src="https://www.tinkercad.com/embed/jxahFSI7kvt?editbtn=1" frameborder="0" 
+      <iframe width="440" height="300" src="https://www.tinkercad.com/embed/jxahFSI7kvt?editbtn=1" frameborder="0"
         marginwidth="0" marginheight="0" scrolling="no"></iframe>
-      
-       <div class="description-boxx">
-        <h5>Half-adder & Subractor</h5>
-            <p>Using one XOR gates, one AND gate, one NAND gate, and one OR gate, I built a half adder and subtractor in which the carry and borrow can also be simulated. The Cout, Borrow (blue), and Sum outputs are displayed using LEDs.</p>
 
-       </div>
+      <div class="description-boxx">
+        <h5>Half-adder & Subractor</h5>
+        <p>Using one XOR gates, one AND gate, one NAND gate, and one OR gate, I built a half adder and subtractor
+          in which the carry and borrow can also be simulated. The Cout, Borrow (blue), and Sum outputs are
+          displayed using LEDs.</p>
+
+      </div>
     </div>
   </div>
 
   <footer class="panel-footer"
     style="position: fixed; bottom: 0px; left: 0px; height: 50px; width:100%; background-color: rgb(255, 255, 255, 0.027); backdrop-filter: blur(10px);">
 
-    <div class="text-center" style="color:rgb(175, 204, 31);">'But if we confess our sins to him, he is faithful and
+    <div class="text-center" style="color:rgb(175, 204, 31);">'But if we confess our sins to him, he is faithful
+      and
       just to forgive us our sins and cleanse us from all wickedness.'<br>- <i>1 John 1:9</i>
     </div>
   </footer>

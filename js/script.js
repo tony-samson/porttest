@@ -1,64 +1,70 @@
 function defaultload(){
 	document.getElementById("bodybox").innerHTML = `
 
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
+ <div class="container-fluid my-5 px-4">
+      <div class="row align-items-start">
 
-    <div class="carousel-item active">
-      <a href="https://www.linkedin.com/posts/adidela-samson-tony_ev3-robot-writing-numbers-only-on-the-paper-activity-7393614926256365568-dIMv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADsMkYIBrT1862Cg8JRyvWTv-QDFSlNPVro"  target="_blank" rel="noopener">
-        <img  class="d-block w-100 my-5" src="./images/ROBO.jpg" alt="robot">
-      </a>
-      <div class="carousel-caption d-none d-md-block">
-       <h5>EV3 Robot with Custom Motor Control</h5>
-      <p>Built using LeJOS, this autonomous robot mimics an arm, corrects mechanical gear errors, and writes numbers 0–9 while detecting paper using a color sensor.</p>
+        <!-- LEFT: Carousel 70% -->
+        <div class="col-md-8 mb-4">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/ROBO.jpg" class="d-block w-100" alt="Robot 1">
+              </div>
+              <div class="carousel-item">
+                <img src="images/r2.jpg" class="d-block w-100" alt="Robot 2">
+              </div>
+              <div class="carousel-item">
+                <img src="images/r3.jpg" class="d-block w-100" alt="Robot 3">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
 
-      </div>
+        <!-- RIGHT: Project Cards 30% -->
+        <div class="col-md-4">
+
+          <!-- Gravity Simulation Card -->
+          <div class="project-card">
+  <img src="images/grav.png" class="project-image" alt="Gravity Simulation">
+  <div class="project-info mt-2">
+    <h4>Gravity Simulation</h4>
+    <p>Physics-based n-body gravity simulation built using VPython, visualizing orbital dynamics, forces, and motion in real time.</p>
+    <div class="project-actions">
+      <a href="#" class="project-btn">▶ Watch</a>
+      <a href="#" class="project-btn icon-btn"><i class="fa fa-github"></i></a>
     </div>
-
-    <div class="carousel-item">
-      <a href="https://www.linkedin.com/posts/adidela-samson-tony_after-pid-control-activity-7393610878388092928-2k_m?utm_source=share&utm_medium=member_desktop&rcm=ACoAADsMkYIBrT1862Cg8JRyvWTv-QDFSlNPVro"  target="_blank" rel="noopener">
-        <img class="d-block w-100 my-5" src="./images/r2.jpg" alt="Second slide">
-      </a>
-
-       <div class="carousel-caption d-none d-md-block">
-        <h5>3-Wheel EV3 Robot with PID Control</h5>
-<p>Built with two motors and a castor wheel, this robot uses a color sensor to detect line edges and adjusts to a 50% reflectance threshold using PID, while an IR sensor monitors obstacles ahead.</p>
-
-      </div>
-    </div>
-
-    <div class="carousel-item">
-      <a href="https://example.com/third">
-        <img class="d-block w-100 my-5" src="./images/r3.jpg" alt="Third slide">
-      </a>
-      <div class="carousel-caption d-none d-md-block">
-       <h5>Advanced EV3 Robot with Manual & Autonomous Modes</h5>
-<p>This complex EV3 robot operates through a PAN-based socket connection, allowing mode selection between manual and automatic control. In manual mode, users can raise, lower, open, and close the arm to grab a ball and drive the robot safely. In automatic mode, it performs full object avoidance and plays an NFL-style routine—moving to center field, locating the ball, grabbing it, and navigating around obstacles and defender robots to reach the goal.</p>
-
-      </div>
-      
-    </div>
-
   </div>
-
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
 
+<div class="project-card">
+  <img src="images/atom.png" class="project-image" alt="Quantum Lab">
+  <div class="project-info mt-2">
+    <h4>Quantum & Nuclear Lab</h4>
+    <p>Simulations visualizing atomic orbitals, radiation interactions, hydrogen fusion (H → He), and U-238 fission with real-time animations.</p>
+    <div class="project-actions">
+      <a href="#" class="project-btn">View Project</a>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
     <div class="container-fluid iframe-container">
 
       <iframe width="440" height="300" src="https://www.tinkercad.com/embed/5ZIjaNlWrWI?editbtn=1" frameborder="0"
         marginwidth="0" marginheight="0" scrolling="no"></iframe>
       <div class="description-boxx">
         <h5>Multiplexer</h5>
-        <p>2x1 and 4x1 Multiplexer was built using NAND, AND, OR gates. we have select lines to choose the input Dip
+        <p>2x1 and 4x1 Multiplexer was built using NAND, AND, OR gates. we have select lines to choose the input
+          Dip
           switches. We can seee the output through LED. please click simulate to try.</p>
       </div>
 
@@ -66,8 +72,10 @@ function defaultload(){
         marginwidth="0" marginheight="0" scrolling="no"></iframe>
       <div class="description-boxx">
         <h5>NAND to All gates</h5>
-        <p>Using universal gate NANDs implementing the funtionality every other gate iput are the Dipswitches and output
-          are the LED. It lits up only when there is 1 refer to the truth table. use the simulate button to try.</p>
+        <p>Using universal gate NANDs implementing the funtionality every other gate iput are the Dipswitches and
+          output
+          are the LED. It lits up only when there is 1 refer to the truth table. use the simulate button to try.
+        </p>
       </div>
 
       <iframe width="440" height="300" src="https://www.tinkercad.com/embed/4g3uPa4wCVq?editbtn=1" frameborder="0"
@@ -84,34 +92,36 @@ function defaultload(){
         marginwidth="0" marginheight="0" scrolling="no"></iframe>
       <div class="description-boxx">
         <h5>Logic Gates</h5>
-        <p>Just with two Dip switches attached to gates and each output form every gate has LED beside according to the
-          truth table we can see the LED lit up when the output is 1 and doesnt turn on when the output is zero. please
+        <p>Just with two Dip switches attached to gates and each output form every gate has LED beside according
+          to the
+          truth table we can see the LED lit up when the output is 1 and doesnt turn on when the output is zero.
+          please
           click simulate to try.</p>
 
       </div>
 
-        <iframe width="440" height="300" src="https://www.tinkercad.com/embed/gddKoRsL6ac?editbtn=1" frameborder="0" 
+      <iframe width="440" height="300" src="https://www.tinkercad.com/embed/gddKoRsL6ac?editbtn=1" frameborder="0"
         marginwidth="0" marginheight="0" scrolling="no"></iframe>
-       <div class="description-boxx">
+      <div class="description-boxx">
         <h5>Full-adder</h5>
-            <p>Using two XOR gates, two AND gates, and one OR gate, I built a full adder where the carry can also be simulated. The Cout and Sum outputs are displayed using LEDs.</p>
+        <p>Using two XOR gates, two AND gates, and one OR gate, I built a full adder where the carry can also be
+          simulated. The Cout and Sum outputs are displayed using LEDs.</p>
 
-       </div>
+      </div>
 
 
-      <iframe width="440" height="300" src="https://www.tinkercad.com/embed/jxahFSI7kvt?editbtn=1" frameborder="0" 
+      <iframe width="440" height="300" src="https://www.tinkercad.com/embed/jxahFSI7kvt?editbtn=1" frameborder="0"
         marginwidth="0" marginheight="0" scrolling="no"></iframe>
-      
-       <div class="description-boxx">
-        <h5>Half-adder & Subractor</h5>
-            <p>Using one XOR gates, one AND gate, one NAND gate, and one OR gate, I built a half adder and subtractor in which the carry and borrow can also be simulated. The Cout, Borrow (blue), and Sum outputs are displayed using LEDs.</p>
 
-       </div>
+      <div class="description-boxx">
+        <h5>Half-adder & Subractor</h5>
+        <p>Using one XOR gates, one AND gate, one NAND gate, and one OR gate, I built a half adder and subtractor
+          in which the carry and borrow can also be simulated. The Cout, Borrow (blue), and Sum outputs are
+          displayed using LEDs.</p>
+
+      </div>
     </div>
   </div>
-
-  
-    
 
 	`;
 }
