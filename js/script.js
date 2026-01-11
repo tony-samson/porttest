@@ -9,21 +9,52 @@ function defaultload(){
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/ROBO.jpg" class="d-block w-100" alt="Robot 1">
-              </div>
-              <div class="carousel-item">
-                <img src="images/r2.jpg" class="d-block w-100" alt="Robot 2">
-              </div>
-              <div class="carousel-item">
-                <img src="images/r3.jpg" class="d-block w-100" alt="Robot 3">
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
+      <a href="https://www.linkedin.com/posts/adidela-samson-tony_ev3-robot-writing-numbers-only-on-the-paper-activity-7393614926256365568-dIMv?utm_source=share&utm_medium=member_desktop&rcm=ACoAADsMkYIBrT1862Cg8JRyvWTv-QDFSlNPVro"  target="_blank" rel="noopener">
+        <img  class="d-block w-100 my-5" src="./images/ROBO.jpg" alt="robot">
+      </a>
+      <div class="carousel-caption d-none d-md-block">
+       <h5>EV3 Robot with Custom Motor Control</h5>
+      <p>Built using LeJOS, this autonomous robot mimics an arm, corrects mechanical gear errors, and writes numbers 0–9 while detecting paper using a color sensor.</p>
+
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <a href="https://www.linkedin.com/posts/adidela-samson-tony_after-pid-control-activity-7393610878388092928-2k_m?utm_source=share&utm_medium=member_desktop&rcm=ACoAADsMkYIBrT1862Cg8JRyvWTv-QDFSlNPVro"  target="_blank" rel="noopener">
+        <img class="d-block w-100 my-5" src="./images/r2.jpg" alt="Second slide">
+      </a>
+
+       <div class="carousel-caption d-none d-md-block">
+        <h5>3-Wheel EV3 Robot with PID Control</h5>
+<p>Built with two motors and a castor wheel, this robot uses a color sensor to detect line edges and adjusts to a 50% reflectance threshold using PID, while an IR sensor monitors obstacles ahead.</p>
+
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <a href="https://example.com/third">
+        <img class="d-block w-100 my-5" src="./images/r3.jpg" alt="Third slide">
+      </a>
+      <div class="carousel-caption d-none d-md-block">
+       <h5>Advanced EV3 Robot with Manual & Autonomous Modes</h5>
+<p>This complex EV3 robot operates through a PAN-based socket connection, allowing mode selection between manual and automatic control. In manual mode, users can raise, lower, open, and close the arm to grab a ball and drive the robot safely. In automatic mode, it performs full object avoidance and plays an NFL-style routine—moving to center field, locating the ball, grabbing it, and navigating around obstacles and defender robots to reach the goal.</p>
+
+      </div>
+      
+    </div>
+
+  </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
           </div>
         </div>
 
@@ -37,8 +68,8 @@ function defaultload(){
     <h4>Gravity Simulation</h4>
     <p>Physics-based n-body gravity simulation built using VPython, visualizing orbital dynamics, forces, and motion in real time.</p>
     <div class="project-actions">
-      <a href="#" class="project-btn">▶ Watch</a>
-      <a href="#" class="project-btn icon-btn"><i class="fa fa-github"></i></a>
+      <a href="https://www.linkedin.com/posts/adidela-samson-tony_physicsmodeling-vpython-gravitysimulation-activity-7413258059747291136-V7h4?utm_source=share&utm_medium=member_desktop&rcm=ACoAADsMkYIBrT1862Cg8JRyvWTv-QDFSlNPVro" target="_blank" rel="noopener" class="project-btn">Watch</a>
+      <a href="https://github.com/tony-samson/nBody" target="_blank" class="project-btn icon-btn"><i class="fa fa-github"></i></a>
     </div>
   </div>
 </div>
@@ -49,7 +80,7 @@ function defaultload(){
     <h4>Quantum & Nuclear Lab</h4>
     <p>Simulations visualizing atomic orbitals, radiation interactions, hydrogen fusion (H → He), and U-238 fission with real-time animations.</p>
     <div class="project-actions">
-      <a href="#" class="project-btn">View Project</a>
+      <a href="https://tony-samson.github.io/atoms/atom.html" target="_blank" rel="noopener" class="project-btn">View Project</a>
     </div>
   </div>
 </div>
@@ -122,7 +153,6 @@ function defaultload(){
       </div>
     </div>
   </div>
-
 	`;
 }
 
