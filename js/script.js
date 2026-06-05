@@ -657,10 +657,10 @@ Image rectification significantly reduces the stereo search space, allowing corr
     </div>
 
     <div class="text-center mb-5">
-      <h3 class="mb-4">Project Demonstration</h3>
+      <h3 class="mb-4">Progress Update</h3>
       <div class="d-flex justify-content-center mb-4">
-        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7444362791647506432?compact=1" 
-                height="399" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>      
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7444362791647506432" 
+        height="1149" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>    
       </div>
       <div class="mt-4">
         <a href="#" target="_blank" class="btn project-btn mx-2 shadow-sm">View Progress</a>
