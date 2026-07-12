@@ -183,11 +183,12 @@ function arduino(){
 	  
     </div>
 
-	          <p>A hands-on simulation of probability distributions and events. This project visually demonstrates concepts such as expected value and variance.</p>
+	          <p>2 Circuits (arduino UNO) <br> 1. Gets the direction from the joystick and sends command through 433Hz Transmitter. <br> 2. Receives the command through 433Hz reciver,  sends signal to L293D motor driver which controlls the wheel rotation. </p>
 
       <a href="https://www.linkedin.com/posts/adidela-samson-tony_arduino-remote-controlled-via-433-mhz-radio-activity-7481544539099250688-csR1?utm_source=share&utm_medium=member_desktop&rcm=ACoAADsMkYIBrT1862Cg8JRyvWTv-QDFSlNPVro"
 	  target="_blank" rel="noopener" class="project-btn">View Demo</a>
-
+<br>
+<br>
 
 		`;
 }
@@ -513,8 +514,7 @@ function embedded() {
 
 	   <div class="col-md-6 col-lg-4 mb-4">
         <div class="card h-100 shadow-sm">
-          <a href="#" onclick="arduino()"
-             target="_blank" rel="noopener">
+          <a href="#" onclick="arduino()"  rel="noopener">
             <img src="./images/ard.jpg" class="card-img-top" alt="arduino car">
           </a>
           <div class="card-body">
