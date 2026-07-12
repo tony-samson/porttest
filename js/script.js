@@ -157,7 +157,38 @@ function defaultload(){
 }
 function arduino(){
 		document.getElementById("bodybox").innerHTML = `
-		
+		 <button class="btn project-btn position-fixed top-0 start-0 m-3"
+          onclick="embedded()"
+          style="z-index:1050;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+         fill="currentColor" class="bi bi-caret-left-fill"
+         viewBox="0 0 16 16">
+      <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+    </svg>
+  </button>
+
+  <div class="container my-5">
+
+    <h2 class="text-center mb-5">Remote Contol Car with Arduino Uno & 433Hz RF Tx,Rx</h2>
+
+    <div class="row mb-5">
+      <div class="col-md-4">
+        <img src="images/ard.jpg" class="img-fluid rounded mb-3 shadow-sm" alt="car">
+      </div>
+     
+      <div class="col-md-4">
+        <img src="images/ard.jpg" class="img-fluid rounded mb-3 shadow-sm" alt="remote">
+      </div>
+
+	  
+    </div>
+
+	          <p>A hands-on simulation of probability distributions and events. This project visually demonstrates concepts such as expected value and variance.</p>
+
+      <a href="https://www.linkedin.com/posts/adidela-samson-tony_arduino-remote-controlled-via-433-mhz-radio-activity-7481544539099250688-csR1?utm_source=share&utm_medium=member_desktop&rcm=ACoAADsMkYIBrT1862Cg8JRyvWTv-QDFSlNPVro"
+	  target="_blank" rel="noopener" class="project-btn">View Demo</a>
+
+
 		`;
 }
 function certifications(){
@@ -479,6 +510,23 @@ function embedded() {
           </div>
         </div>
       </div>
+
+	   <div class="col-md-6 col-lg-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <a href="#" onclick="arduino()"
+             target="_blank" rel="noopener">
+            <img src="./images/ard.jpg" class="card-img-top" alt="arduino car">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">RC Car with arduino UNO</h5>
+            <p class="card-text">
+              2 UNO boards one trasmitting direction through 433Hz Tx and other receiving commands and controlling DC motors 
+            </p>
+            <a onclick="arduino()" href="#"  class="project-btn2" target="_blank" rel="noopener">View</a>
+          </div>
+        </div>
+      </div>
+
 
     </div>
 
