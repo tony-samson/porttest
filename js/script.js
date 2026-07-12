@@ -522,7 +522,7 @@ function embedded() {
             <p class="card-text">
               2 UNO boards one trasmitting direction through 433Hz Tx and other receiving commands and controlling DC motors 
             </p>
-            <a onclick="arduino()" href="#"  class="project-btn2" target="_blank" rel="noopener">View</a>
+            <a onclick="arduino()" href="#"  class="project-btn2" rel="noopener">View</a>
           </div>
         </div>
       </div>
