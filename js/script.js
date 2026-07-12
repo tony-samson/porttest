@@ -155,7 +155,11 @@ function defaultload(){
   </div>
 	`;
 }
-
+function arduino(){
+		document.getElementById("bodybox").innerHTML = `
+		
+		`;
+}
 function certifications(){
 	 
 	document.getElementById("bodybox").innerHTML = `<div class="w3-content w3-display-container">
